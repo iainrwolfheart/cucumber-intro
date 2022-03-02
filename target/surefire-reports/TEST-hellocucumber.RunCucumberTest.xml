@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hellocucumber.RunCucumberTest" time="0.14" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="hellocucumber.RunCucumberTest" time="0.193" tests="19" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -13,7 +13,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="GB"/>
     <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/goz/Documents/Java/hellocucumber/target/surefire/surefirebooter4338124507467173755.jar /Users/goz/Documents/Java/hellocucumber/target/surefire 2022-03-02T12-08-09_292-jvmRun1 surefire8486575745153282682tmp surefire_09605656815573445471tmp"/>
+    <property name="sun.java.command" value="/Users/goz/Documents/Java/hellocucumber/target/surefire/surefirebooter10645768667314597673.jar /Users/goz/Documents/Java/hellocucumber/target/surefire 2022-03-02T14-12-45_087-jvmRun1 surefire14804621279144189828tmp surefire_013546163291039128600tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/goz/Documents/Java/hellocucumber/target/test-classes:/Users/goz/Documents/Java/hellocucumber/target/classes:/Users/goz/.m2/repository/io/cucumber/cucumber-java/7.0.0/cucumber-java-7.0.0.jar:/Users/goz/.m2/repository/io/cucumber/cucumber-core/7.0.0/cucumber-core-7.0.0.jar:/Users/goz/.m2/repository/io/cucumber/cucumber-gherkin/7.0.0/cucumber-gherkin-7.0.0.jar:/Users/goz/.m2/repository/io/cucumber/cucumber-gherkin-messages/7.0.0/cucumber-gherkin-messages-7.0.0.jar:/Users/goz/.m2/repository/io/cucumber/messages/17.1.1/messages-17.1.1.jar:/Users/goz/.m2/repository/io/cucumber/tag-expressions/4.0.2/tag-expressions-4.0.2.jar:/Users/goz/.m2/repository/io/cucumber/cucumber-expressions/13.0.1/cucumber-expressions-13.0.1.jar:/Users/goz/.m2/repository/io/cucumber/datatable/7.0.0/datatable-7.0.0.jar:/Users/goz/.m2/repository/io/cucumber/cucumber-plugin/7.0.0/cucumber-plugin-7.0.0.jar:/Users/goz/.m2/repository/io/cucumber/docstring/7.0.0/docstring-7.0.0.jar:/Users/goz/.m2/repository/io/cucumber/html-formatter/17.0.0/html-formatter-17.0.0.jar:/Users/goz/.m2/repository/io/cucumber/create-meta/6.0.1/create-meta-6.0.1.jar:/Users/goz/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/Users/goz/.m2/repository/io/cucumber/cucumber-junit-platform-engine/7.0.0/cucumber-junit-platform-engine-7.0.0.jar:/Users/goz/.m2/repository/org/junit/platform/junit-platform-engine/1.8.1/junit-platform-engine-1.8.1.jar:/Users/goz/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/goz/.m2/repository/org/junit/platform/junit-platform-commons/1.8.1/junit-platform-commons-1.8.1.jar:/Users/goz/.m2/repository/org/junit/platform/junit-platform-suite/1.8.1/junit-platform-suite-1.8.1.jar:/Users/goz/.m2/repository/org/junit/platform/junit-platform-suite-api/1.8.1/junit-platform-suite-api-1.8.1.jar:/Users/goz/.m2/repository/org/junit/platform/junit-platform-suite-engine/1.8.1/junit-platform-suite-engine-1.8.1.jar:/Users/goz/.m2/repository/org/junit/platform/junit-platform-suite-commons/1.8.1/junit-platform-suite-commons-1.8.1.jar:/Users/goz/.m2/repository/org/junit/platform/junit-platform-launcher/1.8.1/junit-platform-launcher-1.8.1.jar:/Users/goz/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.1/junit-jupiter-5.8.1.jar:/Users/goz/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.1/junit-jupiter-api-5.8.1.jar:/Users/goz/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.1/junit-jupiter-params-5.8.1.jar:/Users/goz/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.1/junit-jupiter-engine-5.8.1.jar:"/>
@@ -29,7 +29,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="/Users/goz/Documents/Java/hellocucumber/target/surefire/surefirebooter4338124507467173755.jar"/>
+    <property name="surefire.real.class.path" value="/Users/goz/Documents/Java/hellocucumber/target/surefire/surefirebooter10645768667314597673.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="17.0.2+0"/>
@@ -56,15 +56,39 @@
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="Example #1" classname="Examples" time="0.048">
+  <testcase name="Example #1" classname="Examples" time="0.05">
     <system-out><![CDATA[
 Scenario Outline: Add two numbers -2 & 3 &amp#27;[90m# hellocucumber/calculator_addition.feature:23&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m              &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_add_and(java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m            &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_add(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m            &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
   <testcase name="Example #1" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Subtract two numbers -2 & 3 &amp#27;[90m# hellocucumber/calculator_addition.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                   &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI subtract &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m&amp#27;[32m from &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m                   &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_subtract(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m-5&amp#27;[0m                &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Multiply two numbers -2 & 3 &amp#27;[90m# hellocucumber/calculator_addition.feature:47&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                   &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI multiply &amp#27;[0m&amp#27;[32m&amp#27;[1m-2&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_multiply(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m-6&amp#27;[0m                &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.002">
+    <system-out><![CDATA[
+Scenario Outline: Divide two numbers 1 & 1 &amp#27;[90m# hellocucumber/calculator_addition.feature:59&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI divide &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m by &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m                     &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_divide(int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m              &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #1" classname="Examples" time="0.004">
     <system-out><![CDATA[
 Scenario Outline: Today is or is not Friday &amp#27;[90m# hellocucumber/is_it_friday_yet.feature:21&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Friday"&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.today_is_friday(java.lang.String)&amp#27;[0m
@@ -76,11 +100,35 @@ Scenario Outline: Today is or is not Friday &amp#27;[90m# hellocucumber/is_it_fr
     <system-out><![CDATA[
 Scenario Outline: Add two numbers 10 & 15 &amp#27;[90m# hellocucumber/calculator_addition.feature:24&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m               &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_add_and(java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m25&amp#27;[0m            &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_add(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m25&amp#27;[0m            &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #2" classname="Examples" time="0.004">
+  <testcase name="Example #2" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Subtract two numbers 10 & 15 &amp#27;[90m# hellocucumber/calculator_addition.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI subtract &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m&amp#27;[32m from &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                   &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_subtract(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m-5&amp#27;[0m                 &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Multiply two numbers 10 & 15 &amp#27;[90m# hellocucumber/calculator_addition.feature:48&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI multiply &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_multiply(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m150&amp#27;[0m                &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Divide two numbers 15 & 3 &amp#27;[90m# hellocucumber/calculator_addition.feature:60&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                 &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI divide &amp#27;[0m&amp#27;[32m&amp#27;[1m15&amp#27;[0m&amp#27;[32m by &amp#27;[0m&amp#27;[32m&amp#27;[1m3&amp#27;[0m                     &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_divide(int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m5&amp#27;[0m               &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #2" classname="Examples" time="0.003">
     <system-out><![CDATA[
 Scenario Outline: Today is or is not Friday &amp#27;[90m# hellocucumber/is_it_friday_yet.feature:22&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mtoday is &amp#27;[0m&amp#27;[32m&amp#27;[1m"Sunday"&amp#27;[0m                   &amp#27;[90m# hellocucumber.StepDefinitions.today_is_friday(java.lang.String)&amp#27;[0m
@@ -88,12 +136,36 @@ Scenario Outline: Today is or is not Friday &amp#27;[90m# hellocucumber/is_it_fr
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nope"&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #3" classname="Examples" time="0.004">
+  <testcase name="Example #3" classname="Examples" time="0.003">
     <system-out><![CDATA[
 Scenario Outline: Add two numbers 99 & -99 &amp#27;[90m# hellocucumber/calculator_addition.feature:25&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m99&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m-99&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_add_and(java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m              &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m99&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m-99&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_add(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m0&amp#27;[0m              &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Subtract two numbers 99 & -99 &amp#27;[90m# hellocucumber/calculator_addition.feature:37&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                     &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI subtract &amp#27;[0m&amp#27;[32m&amp#27;[1m-99&amp#27;[0m&amp#27;[32m from &amp#27;[0m&amp#27;[32m&amp#27;[1m99&amp#27;[0m                   &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_subtract(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m198&amp#27;[0m                 &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.004">
+    <system-out><![CDATA[
+Scenario Outline: Multiply two numbers 99 & -99 &amp#27;[90m# hellocucumber/calculator_addition.feature:49&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                     &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI multiply &amp#27;[0m&amp#27;[32m&amp#27;[1m99&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m-99&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_multiply(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m-9801&amp#27;[0m               &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #3" classname="Examples" time="0.002">
+    <system-out><![CDATA[
+Scenario Outline: Divide two numbers 99 & -99 &amp#27;[90m# hellocucumber/calculator_addition.feature:61&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                   &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI divide &amp#27;[0m&amp#27;[32m&amp#27;[1m99&amp#27;[0m&amp#27;[32m by &amp#27;[0m&amp#27;[32m&amp#27;[1m-99&amp#27;[0m                     &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_divide(int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m                &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
   <testcase name="Example #3" classname="Examples" time="0.003">
@@ -104,12 +176,36 @@ Scenario Outline: Today is or is not Friday &amp#27;[90m# hellocucumber/is_it_fr
   &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be told &amp#27;[0m&amp#27;[32m&amp#27;[1m"Nope"&amp#27;[0m              &amp#27;[90m# hellocucumber.StepDefinitions.i_should_be_told(java.lang.String)&amp#27;[0m
 ]]></system-out>
   </testcase>
-  <testcase name="Example #4" classname="Examples" time="0.005">
+  <testcase name="Example #4" classname="Examples" time="0.003">
     <system-out><![CDATA[
 Scenario Outline: Add two numbers -1 & -10 &amp#27;[90m# hellocucumber/calculator_addition.feature:26&amp#27;[0m
   &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m-10&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_add_and(java.lang.Integer,java.lang.Integer)&amp#27;[0m
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m-11&amp#27;[0m            &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI add &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m-10&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_add(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m-11&amp#27;[0m            &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Subtract two numbers -1 & -10 &amp#27;[90m# hellocucumber/calculator_addition.feature:38&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                     &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI subtract &amp#27;[0m&amp#27;[32m&amp#27;[1m-10&amp#27;[0m&amp#27;[32m from &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m                   &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_subtract(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m9&amp#27;[0m                   &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.003">
+    <system-out><![CDATA[
+Scenario Outline: Multiply two numbers -1 & -10 &amp#27;[90m# hellocucumber/calculator_addition.feature:50&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                     &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI multiply &amp#27;[0m&amp#27;[32m&amp#27;[1m-1&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1m-10&amp#27;[0m                    &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_multiply(java.lang.Integer,java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m10&amp#27;[0m                  &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Example #4" classname="Examples" time="0.005">
+    <system-out><![CDATA[
+Scenario Outline: Divide two numbers 2500 & 2 &amp#27;[90m# hellocucumber/calculator_addition.feature:62&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI have a calculator&amp#27;[0m                   &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_have_a_calculator()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI divide &amp#27;[0m&amp#27;[32m&amp#27;[1m2500&amp#27;[0m&amp#27;[32m by &amp#27;[0m&amp#27;[32m&amp#27;[1m2&amp#27;[0m                     &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.i_divide(int,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe result should be &amp#27;[0m&amp#27;[32m&amp#27;[1m1250&amp#27;[0m              &amp#27;[90m# hellocucumber.CalculatorAdditionStepDefinitions.the_result_should_be(int)&amp#27;[0m
 ]]></system-out>
   </testcase>
 </testsuite>

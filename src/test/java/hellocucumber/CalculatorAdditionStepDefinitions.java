@@ -25,11 +25,27 @@ public class CalculatorAdditionStepDefinitions {
         calculator = new Calculator();
     }
     @When("I add {int} and {int}")
-    public void i_add_and(Integer int1, Integer int2) {
+    public void i_add(Integer int1, Integer int2) {
         total = calculator.add(int1, int2);
     }
+
+    @When("I subtract {int} from {int}")
+    public void i_subtract(Integer int2, Integer int1) {
+        total = calculator.subtract(int1, int2);
+    }
+
+    @When("I multiply {int} and {int}")
+    public void i_multiply(Integer int1, Integer int2) {
+        total = calculator.multiply(int1, int2);
+    }
+
+    @When("I divide {int} by {int}")
+    public void i_divide(int int1, int int2) {
+        total = calculator.divide(int1, int2);
+    }
+
     @Then("the result should be {int}")
-    public void the_result_should_be(Integer int1) {
+    public void the_result_should_be(int int1) {
         assertEquals(int1, total);
     }
 
